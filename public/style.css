@@ -1556,16 +1556,20 @@ h3 {
   --tw-prose-invert-td-borders: #3f3f46;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-8 {
   border-width: 8px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-dashed {
@@ -1576,9 +1580,26 @@ h3 {
   border-color: rgb(37 99 235 / 0.2);
 }
 
-.text-gray-300 {
+.border-b-cyan-600 {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(8 145 178 / var(--tw-border-opacity));
+}
+
+.pb-7 {
+  padding-bottom: 1.75rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-red-600 {
   --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
+  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .hover\:text-gray-700:hover {
